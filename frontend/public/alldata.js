@@ -18,18 +18,18 @@ function AllData() {
                 <tabel className="mt-5">
                     <thead>
                         <tr >
-                            <th className='border py-3 w-48'>Name</th>
-                            <th className='border py-3 w-48'>Email</th>
-                            <th className='border py-3 w-48'>Balance</th>
+                            <th className='border text-white py-3 w-48 bg-gradient-to-r from-indigo-500 to-indigo-500'>Name</th>
+                            <th className='border text-white py-3 w-48 bg-gradient-to-r from-indigo-500 to-indigo-500'>Email</th>
+                            <th className='border text-white py-3 w-48 bg-gradient-to-r from-indigo-500 to-indigo-500'>Balance</th>
                         </tr>
                     </thead>
                     <tbody>
                         {post.map((v, i) => {
                             return (
                                 <tr>
-                                    <td className='border text-center'>{v.name}</td>
-                                    <td className='border text-center'>{v.email}</td>
-                                    <td className='border text-center'>{v.balance}</td>
+                                    <td className='border text-center bg-gradient-to-r from-indigo-200 to-indigo-200'>{v.name}</td>
+                                    <td className='border text-center bg-gradient-to-r from-indigo-200 to-indigo-200'>{v.email}</td>
+                                    <td className='border text-center bg-gradient-to-r from-indigo-200 to-indigo-200'>{v.balance}</td>
                                 </tr>
                             )
                         })}

@@ -6,14 +6,14 @@ function NavBar1() {
   }, 500);
   return (
     
-    <nav className="bg-gray-800">
+    <nav className="bg-gradient-to-r from-blue-500">
       {/* <button className="" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span className=""></span>
       </button> */}
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8" id="navbarNav">
         <div className="relative flex h-16 items-center justify-between">
 
-          <a className="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium" href="#">Bank</a>
+          <a className="text-white px-3 py-2 rounded-md text-3xl font-medium" href="#">Bank</a>
 
           <a className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium" href="#/CreateAccount/">Create Account</a>
 
